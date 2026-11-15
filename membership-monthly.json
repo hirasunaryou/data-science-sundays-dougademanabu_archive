@@ -1,0 +1,373 @@
+{
+  "observedOn": "2026-11-15",
+  "scope": "現在のメンバー一覧に載る人の登録時期（退会者を含む歴代総数ではない）",
+  "source": "提供されたメンバー表344人＋提供画面の管理者1人（2020年11月登録）",
+  "total": 345,
+  "monthly": [
+    {
+      "month": "2020-11",
+      "registrations": 7,
+      "cumulative": 7
+    },
+    {
+      "month": "2020-12",
+      "registrations": 29,
+      "cumulative": 36
+    },
+    {
+      "month": "2021-01",
+      "registrations": 10,
+      "cumulative": 46
+    },
+    {
+      "month": "2021-02",
+      "registrations": 15,
+      "cumulative": 61
+    },
+    {
+      "month": "2021-03",
+      "registrations": 8,
+      "cumulative": 69
+    },
+    {
+      "month": "2021-04",
+      "registrations": 13,
+      "cumulative": 82
+    },
+    {
+      "month": "2021-05",
+      "registrations": 5,
+      "cumulative": 87
+    },
+    {
+      "month": "2021-06",
+      "registrations": 5,
+      "cumulative": 92
+    },
+    {
+      "month": "2021-07",
+      "registrations": 9,
+      "cumulative": 101
+    },
+    {
+      "month": "2021-08",
+      "registrations": 8,
+      "cumulative": 109
+    },
+    {
+      "month": "2021-09",
+      "registrations": 6,
+      "cumulative": 115
+    },
+    {
+      "month": "2021-10",
+      "registrations": 20,
+      "cumulative": 135
+    },
+    {
+      "month": "2021-11",
+      "registrations": 6,
+      "cumulative": 141
+    },
+    {
+      "month": "2021-12",
+      "registrations": 2,
+      "cumulative": 143
+    },
+    {
+      "month": "2022-01",
+      "registrations": 3,
+      "cumulative": 146
+    },
+    {
+      "month": "2022-02",
+      "registrations": 4,
+      "cumulative": 150
+    },
+    {
+      "month": "2022-03",
+      "registrations": 14,
+      "cumulative": 164
+    },
+    {
+      "month": "2022-04",
+      "registrations": 33,
+      "cumulative": 197
+    },
+    {
+      "month": "2022-05",
+      "registrations": 2,
+      "cumulative": 199
+    },
+    {
+      "month": "2022-06",
+      "registrations": 0,
+      "cumulative": 199
+    },
+    {
+      "month": "2022-07",
+      "registrations": 3,
+      "cumulative": 202
+    },
+    {
+      "month": "2022-08",
+      "registrations": 2,
+      "cumulative": 204
+    },
+    {
+      "month": "2022-09",
+      "registrations": 6,
+      "cumulative": 210
+    },
+    {
+      "month": "2022-10",
+      "registrations": 3,
+      "cumulative": 213
+    },
+    {
+      "month": "2022-11",
+      "registrations": 9,
+      "cumulative": 222
+    },
+    {
+      "month": "2022-12",
+      "registrations": 10,
+      "cumulative": 232
+    },
+    {
+      "month": "2023-01",
+      "registrations": 4,
+      "cumulative": 236
+    },
+    {
+      "month": "2023-02",
+      "registrations": 5,
+      "cumulative": 241
+    },
+    {
+      "month": "2023-03",
+      "registrations": 2,
+      "cumulative": 243
+    },
+    {
+      "month": "2023-04",
+      "registrations": 0,
+      "cumulative": 243
+    },
+    {
+      "month": "2023-05",
+      "registrations": 1,
+      "cumulative": 244
+    },
+    {
+      "month": "2023-06",
+      "registrations": 1,
+      "cumulative": 245
+    },
+    {
+      "month": "2023-07",
+      "registrations": 3,
+      "cumulative": 248
+    },
+    {
+      "month": "2023-08",
+      "registrations": 3,
+      "cumulative": 251
+    },
+    {
+      "month": "2023-09",
+      "registrations": 2,
+      "cumulative": 253
+    },
+    {
+      "month": "2023-10",
+      "registrations": 6,
+      "cumulative": 259
+    },
+    {
+      "month": "2023-11",
+      "registrations": 4,
+      "cumulative": 263
+    },
+    {
+      "month": "2023-12",
+      "registrations": 0,
+      "cumulative": 263
+    },
+    {
+      "month": "2024-01",
+      "registrations": 5,
+      "cumulative": 268
+    },
+    {
+      "month": "2024-02",
+      "registrations": 4,
+      "cumulative": 272
+    },
+    {
+      "month": "2024-03",
+      "registrations": 5,
+      "cumulative": 277
+    },
+    {
+      "month": "2024-04",
+      "registrations": 8,
+      "cumulative": 285
+    },
+    {
+      "month": "2024-05",
+      "registrations": 3,
+      "cumulative": 288
+    },
+    {
+      "month": "2024-06",
+      "registrations": 5,
+      "cumulative": 293
+    },
+    {
+      "month": "2024-07",
+      "registrations": 16,
+      "cumulative": 309
+    },
+    {
+      "month": "2024-08",
+      "registrations": 3,
+      "cumulative": 312
+    },
+    {
+      "month": "2024-09",
+      "registrations": 4,
+      "cumulative": 316
+    },
+    {
+      "month": "2024-10",
+      "registrations": 0,
+      "cumulative": 316
+    },
+    {
+      "month": "2024-11",
+      "registrations": 5,
+      "cumulative": 321
+    },
+    {
+      "month": "2024-12",
+      "registrations": 3,
+      "cumulative": 324
+    },
+    {
+      "month": "2025-01",
+      "registrations": 1,
+      "cumulative": 325
+    },
+    {
+      "month": "2025-02",
+      "registrations": 1,
+      "cumulative": 326
+    },
+    {
+      "month": "2025-03",
+      "registrations": 3,
+      "cumulative": 329
+    },
+    {
+      "month": "2025-04",
+      "registrations": 2,
+      "cumulative": 331
+    },
+    {
+      "month": "2025-05",
+      "registrations": 1,
+      "cumulative": 332
+    },
+    {
+      "month": "2025-06",
+      "registrations": 0,
+      "cumulative": 332
+    },
+    {
+      "month": "2025-07",
+      "registrations": 0,
+      "cumulative": 332
+    },
+    {
+      "month": "2025-08",
+      "registrations": 0,
+      "cumulative": 332
+    },
+    {
+      "month": "2025-09",
+      "registrations": 2,
+      "cumulative": 334
+    },
+    {
+      "month": "2025-10",
+      "registrations": 1,
+      "cumulative": 335
+    },
+    {
+      "month": "2025-11",
+      "registrations": 1,
+      "cumulative": 336
+    },
+    {
+      "month": "2025-12",
+      "registrations": 0,
+      "cumulative": 336
+    },
+    {
+      "month": "2026-01",
+      "registrations": 8,
+      "cumulative": 344
+    },
+    {
+      "month": "2026-02",
+      "registrations": 0,
+      "cumulative": 344
+    },
+    {
+      "month": "2026-03",
+      "registrations": 0,
+      "cumulative": 344
+    },
+    {
+      "month": "2026-04",
+      "registrations": 0,
+      "cumulative": 344
+    },
+    {
+      "month": "2026-05",
+      "registrations": 0,
+      "cumulative": 344
+    },
+    {
+      "month": "2026-06",
+      "registrations": 0,
+      "cumulative": 344
+    },
+    {
+      "month": "2026-07",
+      "registrations": 0,
+      "cumulative": 344
+    },
+    {
+      "month": "2026-08",
+      "registrations": 1,
+      "cumulative": 345
+    },
+    {
+      "month": "2026-09",
+      "registrations": 0,
+      "cumulative": 345
+    },
+    {
+      "month": "2026-10",
+      "registrations": 0,
+      "cumulative": 345
+    },
+    {
+      "month": "2026-11",
+      "registrations": 0,
+      "cumulative": 345
+    }
+  ]
+}
