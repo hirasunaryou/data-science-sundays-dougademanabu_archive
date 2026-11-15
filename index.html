@@ -15,7 +15,8 @@
 :root{--ink:#142d30;--deep:#11292d;--deep2:#1b373a;--text:#263f41;--muted:#4d6161;--paper:#f7f3eb;--white:#fffcf5;--line:#d9dcd1;--mint:#bfe8d4;--jade:#2b6d5c;--orange:#a84624;--shell:min(1120px,calc(100% - 64px));--serif:"Hiragino Mincho ProN","Noto Serif CJK JP","Yu Mincho",serif;--sans:"Instrument Sans","Hiragino Sans","Noto Sans CJK JP",system-ui,sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.7 var(--sans);overflow-wrap:anywhere}a{color:var(--jade);text-underline-offset:3px}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,textarea:focus-visible{outline:3px solid #d26939;outline-offset:4px}button:disabled{opacity:.45;cursor:default}h1,h2,h3,p{margin:0}h2,h3{line-height:1.34}h2{font-family:var(--serif);font-size:clamp(29px,4.2vw,48px);letter-spacing:-.04em}h3{font-size:19px}section[id],article[id]{scroll-margin-top:24px}.wrap{width:var(--shell);margin-inline:auto}.small{font-size:13px;color:var(--muted)}.screen-reader{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip{position:absolute;top:10px;left:10px;z-index:99;background:var(--white);padding:8px 12px;transform:translateY(-160%)}.skip:focus{transform:none}
 .head{background:var(--deep);color:#f7f6ea;border-bottom:1px solid #395053}.nav{min-height:69px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand,.nav a{color:inherit;text-decoration:none}.brand{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:800;white-space:nowrap}.brand i{width:17px;height:17px;border-radius:50%;background:#d08550;box-shadow:inset -4px -3px 0 #a44828}.nav-links{display:flex;gap:24px;flex-wrap:wrap;font-size:13px}.nav-links a:hover{text-decoration:underline}
-.hero{background:var(--deep);color:#f8f3e5;padding:76px 0 67px}.hero-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:64px;align-items:center}.eyebrow{color:var(--jade);font-size:13px;letter-spacing:.11em;font-weight:800}.hero .eyebrow{color:#bfe8d4}.hero h1{font:800 clamp(42px,7.1vw,89px)/1.13 var(--serif);letter-spacing:-.085em;margin:19px 0 24px}.hero h1 span{white-space:nowrap}.hero .big{color:#efb380;font:800 1.14em/.95 var(--sans);letter-spacing:-.085em;margin-right:.055em}.hero .intro{max-width:480px;color:#e3e6d9;font-size:clamp(15px,1.6vw,18px);line-height:1.9}.actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:28px}.btn{border:1px solid var(--ink);background:transparent;color:var(--ink);display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:9px 15px;min-height:42px;border-radius:8px;text-decoration:none;font-weight:750;font-size:14px}.btn:hover{background:#dcebe0}.hero .btn{border-color:#728686;color:#f8f3e5}.hero .btn:hover{background:var(--deep2)}.hero .solid{color:#142d30;background:#c1e7d2;border-color:#c1e7d2}.hero .solid:hover{background:#d8f2e4}.dotbox{background:#18353a;border:1px solid #426264;border-radius:15px;padding:22px 25px;color:#e8ecdb} .calendar-top{display:flex;align-items:center;justify-content:space-between;gap:12px}.calendar-top h2{font-size:17px;line-height:1.4;margin:0}.calendar-top label{font-size:12px;display:flex;align-items:center;gap:6px;white-space:nowrap}.calendar-top select{font:inherit;font-size:14px;background:#24464b;color:#fff;border:1px solid #789c95;border-radius:6px;padding:6px}.meeting-calendar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 12px;margin:18px 0}.calendar-month h3{font-size:12px;margin:0 0 5px;color:#d5e9df}.calendar-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px;text-align:center}.calendar-weekday{font-size:9px;color:#b3cac5;line-height:16px}.calendar-day{display:flex;align-items:center;justify-content:center;aspect-ratio:1;min-width:0;border-radius:3px;font-size:9px;line-height:1;text-decoration:none;background:#28464a;color:#b0c3c1;border:1px solid transparent;font-variant-numeric:tabular-nums}.calendar-day.held,.calendar-key.held{background:#a7dfc3;color:#12382d}.calendar-day.cancelled,.calendar-key.cancelled{background:#28464a;color:#e2dcd0;border:1px solid #a4b8b1;text-decoration:line-through}.calendar-day.other,.calendar-key.other{background:#c2d4ec;color:#1e3551}.calendar-day.uncertain,.calendar-key.uncertain{background:#ffc38e;color:#4c2e16}.calendar-day.future{opacity:.35}.calendar-day:focus-visible,.calendar-day[href]:hover{outline:2px solid #fff;outline-offset:2px;position:relative;z-index:1}.calendar-legend{display:flex;gap:7px 12px;flex-wrap:wrap;font-size:11px;color:#d4e3dc}.calendar-key{display:inline-flex;align-items:center;justify-content:center;width:12px;height:12px;vertical-align:-2px;margin-right:4px;border-radius:3px;background:#28464a;border:1px solid transparent;font-size:9px}.calendar-note{font-size:11px;line-height:1.7;color:#c0d4cd;margin:12px 0 0}.calendar-summary{font-size:12px;color:#e6eee6;margin:6px 0 0}@media(max-width:1000px) and (min-width:581px){.hero-grid{grid-template-columns:1fr 1fr;gap:24px}.meeting-calendar{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:390px){.meeting-calendar{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.hero{background:var(--deep);color:#f8f3e5;padding:76px 0 67px}.hero-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:64px;align-items:center}.eyebrow{color:var(--jade);font-size:13px;letter-spacing:.11em;font-weight:800}.hero .eyebrow{color:#bfe8d4}.hero h1{font:800 clamp(42px,7.1vw,89px)/1.13 var(--serif);letter-spacing:-.085em;margin:19px 0 24px}.hero h1 span{white-space:nowrap}.hero .big{color:#efb380;font:800 1.14em/.95 var(--sans);letter-spacing:-.085em;margin-right:.055em}.hero .intro{max-width:480px;color:#e3e6d9;font-size:clamp(15px,1.6vw,18px);line-height:1.9}.actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:28px}.btn{border:1px solid var(--ink);background:transparent;color:var(--ink);display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:9px 15px;min-height:42px;border-radius:8px;text-decoration:none;font-weight:750;font-size:14px}.btn:hover{background:#dcebe0}.hero .btn{border-color:#728686;color:#f8f3e5}.hero .btn:hover{background:var(--deep2)}.hero .solid{color:#142d30;background:#c1e7d2;border-color:#c1e7d2}.hero .solid:hover{background:#d8f2e4}.dotbox{background:#18353a;border:1px solid #426264;border-radius:15px;padding:22px 25px;color:#e8ecdb}.dot-top,.dot-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:12px;font-variant-numeric:tabular-nums}.dot-top strong{font-size:15px;letter-spacing:.02em}.dot-top span,.dot-bottom span:first-child{color:#c1d6c6}.dot-bottom span:last-child{color:#ffc89f}.memory-dots{display:grid;grid-template-columns:repeat(25,minmax(0,1fr));gap:0;padding:21px 0 17px;isolation:isolate}.memory-dot{position:relative;display:block;min-width:0;width:100%;aspect-ratio:1;line-height:0;padding:0;border:0;border-radius:35%;background:transparent;text-decoration:none;touch-action:manipulation}.memory-dot::before{content:"";position:absolute;inset:23%;border-radius:40%;background:#70a697;opacity:.72;box-sizing:border-box;transition:transform .15s ease,opacity .15s ease}.memory-dot.mark::before{background:#f29f67;opacity:1;outline:1px solid #f1b487;outline-offset:1px}.memory-dot.cancelled::before{background:transparent;border:1px solid #8fa9a3;opacity:.7}.memory-dot.other::before{background:#a7bfd3;opacity:.75}.memory-dot.uncertain::before{background:#70a697;border:1px dashed #ffcd9d;opacity:1}.memory-dot:hover::before,.memory-dot:focus-visible::before{transform:scale(1.3);opacity:1}.memory-dot:focus-visible{outline:1px solid #f7f3eb;outline-offset:1px;z-index:1}.dot-caption{margin-top:13px;padding-top:11px;border-top:1px solid #426264;min-height:62px}.dot-caption-meta{display:block;color:#c1d6c6;font-size:11px;font-variant-numeric:tabular-nums}.dot-caption-title{display:block;color:#edf0e1;font-size:13px;line-height:1.65;min-height:2em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dot-guide{font-size:11px;line-height:1.7;color:#b7cfc5;margin-top:9px}.dot-guide summary{cursor:pointer;list-style:none}.dot-guide summary::-webkit-details-marker{display:none}.dot-guide summary::before{content:"＋ ";color:#e1bc98}.dot-guide[open] summary::before{content:"− "}.dot-guide p{margin:6px 0 0}.dot-swatch{display:inline-block;width:7px;height:7px;border-radius:40%;background:#70a697;margin:0 3px 0 7px}.dot-swatch:first-child{margin-left:0}.dot-swatch.mark{background:#f29f67}.dot-help{font-size:11px;color:#b7cfc5;margin-top:5px}@media(prefers-reduced-motion:reduce){.memory-dot::before{transition:none}}
+
 
 .stats{background:#e3ebdf;border-bottom:1px solid #d4ded2}.stats .wrap{display:grid;grid-template-columns:repeat(3,1fr);padding:23px 0;gap:15px}.stat{padding-left:21px;border-left:1px solid #b9c8bb}.stat strong{display:block;font-size:clamp(22px,3.1vw,35px);font-weight:800;line-height:1.15;letter-spacing:-.04em}.stat span{font-size:13px;color:var(--muted)}
 .block{padding:70px 0}.block+.block{border-top:1px solid var(--line)}.heading{margin-bottom:25px}.heading p{margin-top:9px;color:var(--muted);max-width:660px}.annual{display:grid;grid-template-columns:repeat(7,1fr);gap:9px;border:1px solid var(--line);border-radius:12px;background:var(--white);padding:19px}.year{border:0;border-radius:7px;background:transparent;padding:5px 4px;display:grid;gap:5px;min-width:0;justify-items:center;font-size:13px}.year:hover{background:#e1efe3}.year-rail{height:52px;display:flex;align-items:end;justify-content:center;width:100%}.year-bar{width:min(54%,45px);background:#70a38f;border-radius:4px 4px 1px 1px;min-height:5px}.year:last-child .year-bar{background:#bf653d}.year small{font-size:11px;color:var(--muted)}.tile-grid{margin-top:17px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.tile{background:var(--white);border:1px solid var(--line);border-top:3px solid var(--topic,#71a191);border-radius:10px;display:flex;flex-direction:column;min-height:163px;padding:16px 17px}.tile .metadata{color:var(--muted);font-size:12px;font-weight:750;margin:0 0 7px}.tile p{color:var(--muted);font-size:13px;margin:7px 0 10px}.tile a{align-self:flex-start;margin-top:auto;font-size:13px;font-weight:750}.tile h3{font-size:17px}
@@ -36,7 +37,7 @@ dialog{width:min(1040px,calc(100% - 30px));max-height:calc(100dvh - 30px);border
 <main id="main">
 <section class="hero"><div class="wrap hero-grid">
 <div><p class="eyebrow">第300回記念　2026.11.15</p><h1>日曜の朝、<br><span><strong class="big">300</strong>回。</span></h1><p class="intro">動画を止めて話し合った朝。コードを動かして、予想と違う結果が出た朝。2020年から続く勉強会を、もう一度たどってみませんか。</p><div class="actions"><a class="btn solid" href="#archive">年表をひらく <span aria-hidden="true">↓</span></a><button type="button" class="btn" data-present>投影モード</button></div></div>
-<section class="dotbox" aria-labelledby="calendar-title"><div class="calendar-top"><h2 id="calendar-title">記録でたどる開催日</h2><label for="calendar-year">表示年<select id="calendar-year"></select></label></div><p id="calendar-summary" class="calendar-summary" aria-live="polite"></p><div class="meeting-calendar" id="meeting-calendar"></div><div class="calendar-legend" aria-label="カレンダーの凡例"><span><i class="calendar-key held" aria-hidden="true"></i>開催記録</span><span><i class="calendar-key cancelled" aria-hidden="true">×</i>中止</span><span><i class="calendar-key other" aria-hidden="true"></i>準備・告知</span><span><i class="calendar-key uncertain" aria-hidden="true">?</i>日付要確認</span><span><i class="calendar-key" aria-hidden="true"></i>記録なし</span></div><p class="calendar-note">1マス＝実際の暦の1日。色の付いた日を押すと、その日の記録へ移動します。議事録の日付・状態に基づく表示で、人数や活動量の濃淡ではありません。「記録なし」は未開催を意味しません。収録範囲：2020年11月22日〜2026年11月15日。</p><noscript><p class="calendar-note">カレンダーの表示にはJavaScriptが必要です。日付一覧は<a href="archive.csv">CSV</a>でも確認できます。</p></noscript></section>
+<section class="dotbox" aria-labelledby="dots-title"><div class="dot-top"><strong id="dots-title">第1回から第300回まで</strong><span>1点＝1記録日</span></div><div class="memory-dots" id="memory-dots" role="group" aria-label="日付順の記録。矢印キーで点を選択し、Enterでその日の話題へ" aria-describedby="dot-help"></div><div class="dot-bottom"><span>第1回　2020.11.29</span><span>第300回　2026.11.15</span></div><div class="dot-caption" id="dot-caption" aria-live="polite" aria-atomic="true"><span class="dot-caption-meta" id="dot-caption-meta"></span><span class="dot-caption-title" id="dot-caption-title"></span></div><p class="dot-help" id="dot-help">点に触れて話題を探す。押すと、その日の記録へ。</p><details class="dot-guide"><summary><i class="dot-swatch" aria-hidden="true"></i>開催記録 <i class="dot-swatch mark" aria-hidden="true"></i>年表で紹介した節目　・ 点の見方</summary><p>左上から右へ、行を折り返して日付順に並べています。第1回以降の掲載295日付を示し、1点は1回番号や1週間ではありません。緑は開催記録、橙は年表の節目、輪郭のみは中止、青は告知、破線の輪郭は日付要確認です。人数や活動量を濃淡で表していません。</p><p>記録のない日は補っていません。日付の確認が必要な記録も原文のまま残しています。キーボードでは矢印キーで移動し、Enterで開けます。</p></details><noscript><p class="dot-help">日付一覧は<a href="archive.csv">CSV</a>でも確認できます。</p></noscript></section>
 </div></section>
 <div class="stats"><div class="wrap"><div class="stat"><strong>2020–2026</strong><span>活動の記録</span></div><div class="stat"><strong id="total-stat">—</strong><span>年表の日付</span></div><div class="stat"><strong id="topic-stat">—</strong><span>テーマを整理した日付</span></div></div></div>
 
@@ -147,52 +148,48 @@ function setOption(select, value, label) {
   select.append(option);
 }
 
-// Calendar cells come exclusively from the dated archive, never from decorative intensity.
-function calendarKind(entry) {
-  if (!entry) return "empty";
+// Keep the original compact dot composition; every point maps to a real archive date.
+const dotEntries = entries.filter(entry => entry.date >= "2020-11-29").slice().sort((a, b) => a.date.localeCompare(b.date));
+const milestoneDates = new Set(model.milestones.map(item => item[0]));
+const dotNodes = [];
+function dotKind(entry) {
   if (/日付.*要確認|月曜日/.test(entry.note || "")) return "uncertain";
-  if (entry.status === "記録") return "held";
-  return entry.status === "中止" ? "cancelled" : "other";
+  if (entry.status === "中止") return "cancelled";
+  if (entry.status !== "記録") return "other";
+  return milestoneDates.has(entry.date) ? "mark" : "held";
 }
-const calendarLabels = {held: "開催記録", cancelled: "中止", other: "準備・告知", uncertain: "日付要確認"};
-const calendarYears = [...new Set(entries.map(entry => entry.date.slice(0, 4)))].sort();
-for (const year of calendarYears) setOption($("calendar-year"), year, year + "年");
-$("calendar-year").value = calendarYears.at(-1);
-const lastRecordedDate = entries.map(entry => entry.date).sort().at(-1);
-function renderCalendar() {
-  const year = Number($("calendar-year").value);
-  const months = [];
-  for (let month = 0; month < 12; month += 1) {
-    const section = create("section", "calendar-month");
-    section.setAttribute("aria-label", year + "年" + (month + 1) + "月");
-    section.append(create("h3", null, (month + 1) + "月"));
-    const grid = create("div", "calendar-days");
-    for (const day of "日月火水木金土") grid.append(create("span", "calendar-weekday", day));
-    const offset = new Date(Date.UTC(year, month, 1)).getUTCDay();
-    for (let blank = 0; blank < offset; blank += 1) grid.append(create("span"));
-    const length = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
-    for (let day = 1; day <= length; day += 1) {
-      const date = year + "-" + String(month + 1).padStart(2, "0") + "-" + String(day).padStart(2, "0");
-      const entry = byDate.get(date);
-      const kind = calendarKind(entry);
-      const cell = create(entry ? "a" : "span", "calendar-day " + kind + (date > lastRecordedDate ? " future" : ""), String(day));
-      cell.dataset.date = date;
-      const label = date + "：" + (entry ? [calendarLabels[kind], numbered(entry), entry.title, entry.note].filter(Boolean).join("・") : date > lastRecordedDate ? "収録範囲外" : "記録なし（開催有無は未確認）");
-      cell.title = label;
-      cell.setAttribute("aria-label", label);
-      if (entry) cell.href = "#entry-" + date;
-      grid.append(cell);
-    }
-    section.append(grid);
-    months.push(section);
-  }
-  $("meeting-calendar").replaceChildren(...months);
-  const counts = {held: 0, cancelled: 0, other: 0, uncertain: 0};
-  entries.filter(entry => entry.date.startsWith(String(year))).forEach(entry => counts[calendarKind(entry)]++);
-  $("calendar-summary").textContent = Object.entries(counts).filter(([, count]) => count).map(([kind, count]) => calendarLabels[kind] + " " + count + "日").join(" ／ ");
+function dotDescription(entry) {
+  return [entry.date.replaceAll("-", "."), numbered(entry), dotKind(entry) === "uncertain" ? "日付要確認" : entry.status === "記録" ? "開催記録" : entry.status].filter(Boolean).join("　");
 }
-$("calendar-year").addEventListener("change", renderCalendar);
-renderCalendar();
+function previewDot(entry) {
+  $("dot-caption-meta").textContent = dotDescription(entry);
+  $("dot-caption-title").textContent = entry.title || (entry.status === "記録" ? "この日の記録をひらく →" : entry.status + "の記録をひらく →");
+}
+function activateDot(index) {
+  dotNodes.forEach((node, i) => { node.tabIndex = i === index ? 0 : -1; });
+  previewDot(dotEntries[index]);
+}
+for (const [index, entry] of dotEntries.entries()) {
+  const dot = entryLink("", entry.date);
+  dot.className = "memory-dot " + dotKind(entry);
+  dot.dataset.date = entry.date;
+  dot.title = dotDescription(entry) + "：" + (entry.title || "記録をひらく");
+  dot.setAttribute("aria-label", dot.title);
+  dot.tabIndex = index === dotEntries.length - 1 ? 0 : -1;
+  dot.addEventListener("pointerenter", () => previewDot(entry));
+  dot.addEventListener("focus", () => activateDot(index));
+  dot.addEventListener("click", () => activateDot(index));
+  dot.addEventListener("keydown", event => {
+    const offsets = {ArrowLeft: -1, ArrowRight: 1, ArrowUp: -25, ArrowDown: 25};
+    let next = event.key === "Home" ? 0 : event.key === "End" ? dotNodes.length - 1 : event.key in offsets ? Math.max(0, Math.min(dotNodes.length - 1, index + offsets[event.key])) : null;
+    if (next === null) return;
+    event.preventDefault();
+    dotNodes[next].focus();
+  });
+  dotNodes.push(dot);
+  $("memory-dots").append(dot);
+}
+previewDot(dotEntries.at(-1));
 $("total-stat").textContent = entries.length;
 $("topic-stat").textContent = entries.filter(entry => entry.topic).length;
 for (const year of new Set(entries.map(entry => entry.date.slice(0, 4)))) {
